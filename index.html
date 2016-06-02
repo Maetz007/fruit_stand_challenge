@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery-2.2.3.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+
+    <h1>Fruit Market</h1>
+<!-- start row of fruit on the market -->
+<div class='row'>
+<!-- banana div with img, button and a div to insert price -->
+  <div class='col-md-3' id='banana'>
+    <img src="banana.png" alt="THIS IS A BANANA" />
+    <h2>Bananas</h2>
+    <div class='price' id='bananaPrice' ></div>
+    <button type="button" class="btn btn-danger" id="buyBananaBtn">BUY</button>
+    <button type="button" class="btn btn-danger" id="sellBananaBtn">SELL</button>
+  </div>
+<!-- orange div with img, button and a div to insert price -->
+  <div class='col-md-3' id='orange'>
+    <img src="orange.png" alt="THIS IS AN ORANGE" />
+    <h2>Oranges</h2>
+    <div class='price' id='orangePrice'></div>
+    <button type="button" class="btn btn-danger" id="buyOrangeBtn">BUY</button>
+    <button type="button" class="btn btn-danger" id="sellOrangeBtn">SELL</button>
+  </div>
+<!-- apple div with img, button and a div to insert price -->
+  <div class='col-md-3' id='apple'>
+    <img src="apple.png" alt="THIS IS AN APPLE" />
+    <h2>Apples</h2>
+    <div class='price' id='applePrice'></div>
+    <button type="button" class="btn btn-danger" id="buyAppleBtn">BUY</button>
+    <button type="button" class="btn btn-danger" id="sellAppleBtn">SELL</button>
+  </div>
+<!-- grape div with img, button and a div to insert price -->
+  <div class ='col-md-3' id='grapes'>
+    <img src="grapes.png" alt="THIS IS A GRAPE" />
+    <h2>Grapes</h2>
+    <div class='price' id='grapePrice'></div>
+    <button type="button" class="btn btn-danger" id="buyGrapeBtn">BUY</button>
+    <!--<button type="button" class="btn btn-danger" id="sellGrapeBtn">SELL</button>-->
+  </div>
+
+</div>
+<!-- div that will hold your cash variable -->
+<div class='cash panel panel-heading panel-danger'>
+
+</div>
+<!-- div that contains your inventory, text is
+placeholder for variables from scrpt -->
+<div class='inventory'>
+  <h4>Inventory</h4>
+  <ul>
+    <li class='bananaInventory'> 0 Bananas </li>
+    <li class='orangeInventory'> 0 Oranges </li>
+    <li class='appleInventory'> 0 Apples </li>
+    <li class='grapeInventory'> 0 Grapes </li>
+  </ul>
+</div>
+  </body>
+
+</html>
